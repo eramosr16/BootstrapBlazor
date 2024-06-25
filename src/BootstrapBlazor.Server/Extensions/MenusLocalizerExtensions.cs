@@ -631,6 +631,16 @@ internal static class MenusLocalizerExtensions
                 },
                 new()
                 {
+                    Text = Localizer["Icon"],
+                    Url = "icon"
+                },
+                new()
+                {
+                    Text = Localizer["IconPark"],
+                    Url = "icon-park"
+                },
+                new()
+                {
                     Text = Localizer["LinkButton"],
                     Url = "link-button"
                 },
@@ -1446,6 +1456,11 @@ internal static class MenusLocalizerExtensions
                 {
                     Text = Localizer["Lookup"],
                     Url = "lookup"
+                },
+                new()
+                {
+                    Text = Localizer["Mask"],
+                    Url = "mask"
                 },
                 new()
                 {
